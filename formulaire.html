@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire </title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Ajouter un titre" required>
+        <input type="texte" placeholder="Description" required>
+        <label for="start"> date :</label>
+        <input type="date" id="start" name="trip-start" value="2021-2023" min="2021-01-01" max="2023-12-31">
+        <label for="appt"> Heure:</label>
+        <input type="time" id="appt" name="appt min="01-00" max="23:00" required>
+        <br>
+        <input type="radio" name="catègories" id="quotidien">
+        <label for="quotidien">quotidien</label>
+        <br>
+        <input type="radio" name="catègories" id="important">
+        <label for="important">Important </label>
+        <br>
+        <input type="radio" name="catègories" id="Evenements">
+        <label for="Evenements">Evenements</label>
+        <br>
+        <input type="radio" name="catègories" id="Rappels">
+        <label for="Rappels">Rappels</label>
+        <button> enregistrer </button>
+    </form>
+</body>
+</html>
